@@ -1,0 +1,41 @@
+.ke-icon {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  background-position: center;
+  margin: 0 auto;
+
+  &-calender {
+    background-image: url("../../assets/icons/calender.svg");
+  }
+
+  &-like {
+    background-image: url("../../assets/icons/like.svg");
+  }
+
+  &-dislike {
+    background-image: url("../../assets/icons/dislike.svg");
+  }
+
+  &-neutral {
+    background-image: url("../../assets/icons/neutral.svg");
+  }
+
+  &-overflow {
+    background-image: url("../../assets/icons/overflow.svg");
+  }
+
+  &-back {
+    background-image: url("../../assets/icons/Back.svg");
+    margin-right: 8px;
+  }
+}
+
+.meta-icon {
+  color: #8A8A8A;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 12px;
+}

@@ -1,0 +1,174 @@
+.ke-card {
+  background-color: #ffffff;
+  border: 1px solid #f3f3f3;
+  padding: 10px 5px;
+  cursor: pointer;
+  transition: border 0.2s;
+  position: relative;
+}
+.ke-card::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  background-image: url("../../assets/icons/overflow.svg");
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -25px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.ke-card:hover {
+  border-color: #65a2f7;
+}
+.ke-card:hover::before {
+  opacity: 1;
+}
+.ke-card-title {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #2d2d2d;
+  margin-bottom: 8px;
+}
+.ke-card-inner .meta {
+  display: block;
+}
+.ke-card-inner .meta-title {
+  font-weight: 400;
+  color: #8a8a8a;
+}
+.ke-card-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ke-card-inner {
+  padding: 0 5px;
+}
+.ke-card-inner.comments {
+  width: 300px;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+.ke-card-inner .meta + .meta {
+  margin-top: 2px;
+}
+.ke-card .avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #f9f9f9;
+  border-color: #bcbdbe;
+}
+.ke-card .candidature {
+  width: 300px;
+}
+.ke-card .candidature .wrapper {
+  display: flex;
+  align-items: center;
+}
+.ke-card .candidature .avatar {
+  margin-right: 8px;
+  overflow: hidden;
+}
+.ke-card .candidature .avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+.ke-card .candidature .avatar-details {
+  text-transform: capitalize;
+}
+.ke-card .candidature .meta {
+  color: #8a8a8a;
+}
+.ke-card .candidature .meta-name {
+  font-size: 16px;
+  color: #2d2d2d;
+}
+.ke-card .meta-icon,
+.ke-card .ke-icon {
+  margin-bottom: 5px;
+}
+
+.list .item + .item {
+  margin-top: 12px;
+}
+
+.component-dropped .meta-content, .component-prospects .meta-content {
+  color: #8a8a8a;
+  font-size: 12px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 35px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.ke-navigate {
+  display: flex;
+  align-items: center;
+}
+
+.ke-icon {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  background-position: center;
+  margin: 0 auto;
+}
+.ke-icon-calender {
+  background-image: url("../../assets/icons/calender.svg");
+}
+.ke-icon-like {
+  background-image: url("../../assets/icons/like.svg");
+}
+.ke-icon-dislike {
+  background-image: url("../../assets/icons/dislike.svg");
+}
+.ke-icon-neutral {
+  background-image: url("../../assets/icons/neutral.svg");
+}
+.ke-icon-overflow {
+  background-image: url("../../assets/icons/overflow.svg");
+}
+.ke-icon-back {
+  background-image: url("../../assets/icons/Back.svg");
+  margin-right: 8px;
+}
+
+.meta-icon {
+  color: #8A8A8A;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 12px;
+}
+
+body {
+  background-color: #F2F2F2;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+.ke-navigate {
+  font-weight: 900;
+}
+
+.main-content {
+  padding: 60px 40px;
+}
+
+/*# sourceMappingURL=main.css.map */
