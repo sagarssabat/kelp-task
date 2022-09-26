@@ -6,6 +6,9 @@
   transition: border 0.2s;
   position: relative;
 }
+.ke-card.ke-card-headings::before {
+  display: none;
+}
 .ke-card::before {
   content: "";
   width: 20px;
@@ -50,7 +53,7 @@
   padding: 0 5px;
 }
 .ke-card-inner.comments {
-  width: 300px;
+  width: 25%;
   font-size: 12px;
   color: #8a8a8a;
 }
@@ -65,7 +68,7 @@
   border-color: #bcbdbe;
 }
 .ke-card .candidature {
-  width: 300px;
+  width: 25%;
 }
 .ke-card .candidature .wrapper {
   display: flex;
@@ -148,6 +151,13 @@ header {
   background-image: url("../../assets/icons/Back.svg");
   margin-right: 8px;
 }
+.ke-icon-like-fill {
+  background-image: url("../../assets/icons/like-fill.svg");
+}
+.ke-icon-more {
+  background-image: url("../../assets/icons/more.svg");
+  background-size: 20%;
+}
 
 .meta-icon {
   color: #8A8A8A;
@@ -169,6 +179,10 @@ body {
 
 .main-content {
   padding: 60px 40px;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
 }
 
 /*# sourceMappingURL=main.css.map */

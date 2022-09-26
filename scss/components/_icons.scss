@@ -31,6 +31,15 @@
     background-image: url("../../assets/icons/Back.svg");
     margin-right: 8px;
   }
+
+  &-like-fill {
+    background-image: url("../../assets/icons/like-fill.svg");
+  }
+
+  &-more {
+    background-image: url("../../assets/icons/more.svg");
+    background-size: 20%;
+  }
 }
 
 .meta-icon {

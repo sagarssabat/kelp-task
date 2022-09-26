@@ -6,6 +6,12 @@
   transition: border 0.2s;
   position: relative;
 
+  &.ke-card-headings {
+      &::before {
+          display: none;
+      }
+  }
+
   &::before {
     content: "";
     width: 20px;
@@ -59,7 +65,7 @@
     padding: 0 5px;
 
     &.comments {
-      width: 300px;
+      width: 25%;
       font-size: 12px;
       color: #8a8a8a;
     }
@@ -80,7 +86,7 @@
   }
 
   .candidature {
-    width: 300px;
+    width: 25%;
     .wrapper {
       display: flex;
       align-items: center;
